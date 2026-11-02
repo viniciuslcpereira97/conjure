@@ -49,7 +49,7 @@
 
 (local iex-command (if (= :windows (util.os))
                        "iex.bat --no-color"
-                       "iex --no-color"))
+                       "iex --no-color custom"))
 
 (config.merge
   {:client
@@ -279,3 +279,4 @@
     {:desc "Interrupt the REPL"}))
 
 M
+
